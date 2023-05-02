@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>smile man</title>
+    <center><h2>not working [emoji - > smile]</h2></center>
+    <style>
+      body {
+        background-image: url("https://i.kym-cdn.com/entries/icons/original/000/038/579/tco_(82).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      textarea {
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        padding: 5px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0069d9;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <textarea id="input"></textarea>
+      <button id="convert-btn">Convert</button>
+      <textarea id="output"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
